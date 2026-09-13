@@ -346,6 +346,14 @@ ul.plain-list li .role{
   color:var(--ink-soft);
 }
 
+.entry .body .authors{
+  font-family:"IBM Plex Mono", monospace;
+  font-size:12px;
+  color:var(--ink-soft);
+  margin:2px 0 6px;
+  line-height:1.5;
+}
+
 footer{
   font-family:"IBM Plex Mono", monospace;
   font-size:12.5px;
