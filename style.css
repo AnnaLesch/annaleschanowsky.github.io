@@ -416,6 +416,24 @@ ul.plain-list li .role{
   margin:12px 0;
 }
 
+.quote{
+  border-left:3px solid var(--accent);
+  padding:10px 18px;
+  margin:16px 0;
+  font-style:italic;
+  color:var(--ink-soft);
+  font-size:15px;
+  line-height:1.6;
+}
+.quote .attribution{
+  display:block;
+  margin-top:8px;
+  font-style:normal;
+  font-family:"IBM Plex Mono",monospace;
+  font-size:12px;
+  color:var(--ink-soft);
+}
+
 footer{
   font-family:"IBM Plex Mono", monospace;
   font-size:12.5px;
