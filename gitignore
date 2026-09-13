@@ -1,0 +1,23 @@
+# JetBrains IDEs (PyCharm, IntelliJ, WebStorm, etc.)
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor backup/swap files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local env files (if you ever add any tooling/scripts)
+.env
