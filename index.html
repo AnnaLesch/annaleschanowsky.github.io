@@ -3,32 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anna Leschanowsky — Index</title>
+<title>Anna Leschanowsky</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="page">
 
-  <div class="imprint">
-    <span>Erlangen · 2026 · rev. current</span>
+  <div class="topbar">
+    <span>Erlangen, Germany</span>
   </div>
 
-  <header>
+  <header class="hero">
     <h1>Anna Leschanowsky</h1>
-    <div class="subtitle">an index of research, governance &amp; practice in voice and conversational AI</div>
+    <div class="role">Senior Scientist, Fraunhofer IIS · Doctoral Candidate, FAU Erlangen-Nürnberg</div>
   </header>
 
-  <div class="contact-row">
-    <a href="mailto:anna.leschanowsky@iis.fraunhofer.de">Email</a>
-    <a href="https://www.linkedin.com/in/anna-leschanowsky" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://scholar.google.com/citations?user=Ifxo1S4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-    <a href="https://orcid.org/0000-0003-2994-2336" target="_blank" rel="noopener">ORCID</a>
-    <a href="https://www.researchgate.net/profile/Anna-Leschanowsky" target="_blank" rel="noopener">ResearchGate</a>
-  </div>
+  <dl class="spec">
+    <dt>focus</dt><dd>AI governance for voice &amp; conversational AI, human-centered evaluation</dd>
+    <dt>background</dt><dd>speech &amp; audio signal processing, HCI, applied statistics</dd>
+    <dt>links</dt><dd>
+      <a href="mailto:anna.leschanowsky@iis.fraunhofer.de">email</a>
+      <a href="https://www.linkedin.com/in/anna-leschanowsky" target="_blank" rel="noopener">linkedin</a>
+      <a href="https://scholar.google.com/citations?user=Ifxo1S4AAAAJ" target="_blank" rel="noopener">scholar</a>
+      <a href="https://orcid.org/0000-0003-2994-2336" target="_blank" rel="noopener">orcid</a>
+      <a href="https://www.researchgate.net/profile/Anna-Leschanowsky" target="_blank" rel="noopener">researchgate</a>
+    </dd>
+  </dl>
 
   <nav class="site-nav">
     <a href="index.html" class="current">Home</a>
@@ -38,130 +41,44 @@
     <a href="art.html">Art &amp; Practice</a>
   </nav>
 
-  <p class="preamble"><strong>I build the evaluation methods that make AI governance enforceable</strong> — translating what the law requires of voice and conversational AI (informational self-determination, non-manipulation, non-discriminatory performance) into evidence that can actually be measured against real people, not just checked off a compliance list. Senior Scientist, Fraunhofer IIS / AudioLabs Erlangen; doctoral candidate, FAU Erlangen-Nürnberg.</p>
-  <p class="anchor-note">Two projects anchor this in practice: TransparentNLP, on the legal-construct side, and AI governance advisory for public/sovereign foundation models, on the institutional side. Publications, talks, teaching, and art &amp; practice-based work each have their own page — linked below and in the navigation above.</p>
+  <section class="identity">
+    <h2 class="section-title">What I do</h2>
+    <p>I build the evaluation methods that make AI governance enforceable. Legal frameworks like the EU AI Act and GDPR require voice and conversational AI systems to be transparent, non-manipulative, and non-discriminatory but they don't specify how to test whether a system meets those requirements. That's the gap I work in: taking a legal or ethical construct, operationalizing it as something measurable, and running the perceptual or statistical evaluation that produces actual evidence.</p>
+    <p class="detail">In practice this means designing listening tests and user studies, building evaluation and audit tooling, and translating EU AI Act / GDPR requirements into technical specifications for engineering teams.</p>
+  </section>
 
-  <article>
-    <div class="article-head">
-      <div class="label">
-        <span class="article-num">Art. I</span>
-        <h2>Research focus</h2>
-      </div>
+  <section>
+    <div class="section-head">
+      <h2 class="section-title">Research focus</h2>
     </div>
-
-    <div class="clause anchor">
-      <div class="cite">AI Act — Title VIII<br>GPAI obligations
-        <span class="status">emerging</span>
-      </div>
-      <div class="content">
+    <div class="grid">
+      <div class="card">
+        <div class="tag-row"><span class="cite">AI Act — Title VIII, GPAI</span><span class="status">emerging</span></div>
         <h3>AI Governance for Public AI</h3>
-        <p>Advisory work translating EU AI Act requirements into technical practice for public-sector and sovereign foundation model initiatives — including SOOFI — where compliance has to be built into the system, not bolted on afterward.</p>
+        <p>Translating EU AI Act requirements into technical practice for public AI and sovereign foundation model initiatives.</p>
+      </div>
+      <div class="card">
+        <div class="tag-row"><span class="cite">DSGVO / GDPR Art. 12–13</span><span class="status">active · PI</span></div>
+        <h3>TransparentNLP — DSGVO-konforme Sprachsysteme für informationelle Selbstbestimmung</h3>
+        <p>Operationalizing accessibility, comprehensibility and precision for personal data processing activities in conversational AI.</p>
+      </div>
+      <div class="card">
+        <div class="tag-row"><span class="cite">AI Act — Art. 5</span><span class="status">active</span></div>
+        <h3>Deceptive Patterns in Voice AI</h3>
+        <p>Perceptual testing of deceptive-pattern design in conversational and voice interfaces.</p>
+      </div>
+      <div class="card">
+        <div class="tag-row"><span class="cite">non-discrimination</span><span class="status">established</span></div>
+        <h3>Fairness &amp; Bias in Speech Technology</h3>
+        <p>Bias evaluation across voice anonymization, speech codecs, and voice biometrics.</p>
       </div>
     </div>
-
-    <div class="clause anchor">
-      <div class="cite">DSGVO / GDPR<br>Art. 12–13, informationelle Selbstbestimmung
-        <span class="status">active · PI</span>
-      </div>
-      <div class="content">
-        <h3>DSGVO-Konforme Sprachsysteme für Informationelle Selbstbestimmung <span style="font-style:italic; color:var(--ink-soft); font-weight:400;">(TransparentNLP)</span></h3>
-        <p>Operationalizing informational self-determination for voice and speech systems: what it actually takes for a system to give someone adequate, comprehensible control over their own data, and how to test whether it does.</p>
-      </div>
-    </div>
-
-    <div class="clause">
-      <div class="cite">AI Act — Art. 5<br>manipulative technique
-        <span class="status">active</span>
-      </div>
-      <div class="content">
-        <h3>Deceptive patterns in voice AI</h3>
-        <p>Perceptual testing of dark-pattern design in conversational and voice interfaces — prosodic manipulation, sensory framing — giving the Act's prohibited-practice language empirical footing.</p>
-      </div>
-    </div>
-
-    <div class="clause">
-      <div class="cite measure">— methodology
-        <span class="status">established</span>
-      </div>
-      <div class="content">
-        <h3>Fairness and bias in speech technology</h3>
-        <p>Bias evaluation across voice anonymization, speech codecs, and voice biometrics; the evaluation infrastructure (including SITool) underneath the governance-facing work above.</p>
-      </div>
-    </div>
-  </article>
-
-  <article>
-    <div class="article-head">
-      <div class="label">
-        <span class="article-num">Art. II</span>
-        <h2>Publications</h2>
-      </div>
-      <a class="see-all" href="publications.html">full list →</a>
-    </div>
-    <div class="clause">
-      <div class="cite">SPSC 2024<br>Best Paper Award</div>
-      <div class="content"><h3><a href="https://doi.org/10.48550/arXiv.2408.15391" target="_blank" rel="noopener">Examining the Interplay Between Privacy and Fairness for Speech Processing</a></h3></div>
-    </div>
-    <div class="clause">
-      <div class="cite">Computers in Human Behavior<br>2024</div>
-      <div class="content"><h3><a href="https://doi.org/10.1016/j.chb.2024.108344" target="_blank" rel="noopener">Evaluating privacy, security, and trust perceptions in conversational AI: A systematic review</a></h3></div>
-    </div>
-  </article>
-
-  <article>
-    <div class="article-head">
-      <div class="label">
-        <span class="article-num">Art. III</span>
-        <h2>Talks &amp; public engagement</h2>
-      </div>
-      <a class="see-all" href="talks.html">full list →</a>
-    </div>
-    <div class="clause">
-      <div class="cite">June 2026</div>
-      <div class="content"><h3>COMMUNIA — Copyright Liability and the Knowledge Ecosystem</h3></div>
-    </div>
-    <div class="clause">
-      <div class="cite">April 2026</div>
-      <div class="content"><h3>Privacy Symposium, Venice</h3></div>
-    </div>
-  </article>
-
-  <article>
-    <div class="article-head">
-      <div class="label">
-        <span class="article-num">Art. IV</span>
-        <h2>Teaching</h2>
-      </div>
-      <a class="see-all" href="teaching.html">full list →</a>
-    </div>
-    <div class="clause">
-      <div class="cite">Winter term<br>FAU</div>
-      <div class="content"><h3>Data Governance Foundations</h3><p>Seminar.</p></div>
-    </div>
-  </article>
-
-  <article>
-    <div class="article-head">
-      <div class="label">
-        <span class="article-num">Art. V</span>
-        <h2>Art &amp; practice-based work</h2>
-      </div>
-      <a class="see-all" href="art.html">full list →</a>
-    </div>
-    <div class="clause anchor">
-      <div class="cite measure">HASTAC<br>New York City<br>June 2023</div>
-      <div class="content">
-        <h3>Prediction XR — False Negative or the Computer Says Nah</h3>
-        <p>An interactive WebGL experience using face and voice recognition, built with XR artist Michaela Pnacekova.</p>
-      </div>
-    </div>
-  </article>
+  </section>
 
   <footer>
     <span>Anna Leschanowsky · Erlangen, Germany</span>
   </footer>
 
 </div>
-
 </body>
 </html>
