@@ -6,21 +6,20 @@
 <title>Art &amp; Practice — Anna Leschanowsky</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="page">
 
-  <div class="imprint">
+  <div class="topbar">
     <a href="index.html">← Anna Leschanowsky</a>
     <span>Erlangen · 2026</span>
   </div>
 
-  <header>
+  <header class="hero">
     <h1>Art &amp; practice-based work</h1>
-    <div class="subtitle">Art. V of the index — with Michaela Pnacekova, XR artist</div>
+    <div class="role">With Michaela Pnacekova, XR artist</div>
   </header>
 
   <nav class="site-nav">
@@ -31,29 +30,20 @@
     <a href="art.html" class="current">Art &amp; Practice</a>
   </nav>
 
-  <article>
-    <div class="article-head">
-      <div class="label"><span class="article-num">§1</span><h2>Exhibitions &amp; showcases</h2></div>
+  <div class="grid" style="grid-template-columns:1fr;">
+    <div class="card" style="border-right:none;">
+      <div class="tag-row"><span class="cite">HASTAC, New York City · June 2023</span></div>
+      <h3>Prediction XR — False Negative or the Computer Says Nah</h3>
+      <p>An interactive WebGL experience using face and voice recognition. In a digitally driven society, individuals can create virtual twins to navigate the metaverse, but the price is surrendering their biometric data. As society craves order and balance, a scoring system determines an individual's daily risk level based on facial expression and voice, impacting their digital twin's life. In this high-stakes world, hope lies in the promise of a better tomorrow.</p>
+      <div class="stack">with Michaela Pnacekova, XR artist</div>
     </div>
-
-    <div class="clause anchor">
-      <div class="cite measure">HASTAC<br>New York City<br>June 2023</div>
-      <div class="content">
-        <h3>Prediction XR — False Negative or the Computer Says Nah</h3>
-        <p>An interactive WebGL experience using face and voice recognition. In a digitally driven society, individuals can create virtual twins to navigate the metaverse, but the price is surrendering their biometric data. As society craves order and balance, a scoring system determines an individual's daily risk level based on facial expression and voice, impacting their digital twin's life. In this high-stakes world, hope lies in the promise of a better tomorrow.</p>
-        <div class="who">with Michaela Pnacekova, XR artist</div>
-      </div>
+    <div class="card" style="border-right:none;">
+      <div class="tag-row"><span class="cite">ACM IMX 2026 · demo</span></div>
+      <h3>Making Voice AI Strange</h3>
+      <p>Reflective design interventions in a real-time voice AI experience, built to make the system's usually-invisible behavior perceptible.</p>
+      <div class="stack">with Michaela Pnacekova</div>
     </div>
-
-    <div class="clause">
-      <div class="cite measure">ACM IMX 2026<br>demo</div>
-      <div class="content">
-        <h3>Making Voice AI Strange</h3>
-        <p>Reflective design interventions in a real-time voice AI experience, built to make the system's usually-invisible behavior perceptible.</p>
-        <div class="who">with Michaela Pnacekova</div>
-      </div>
-    </div>
-  </article>
+  </div>
 
   <footer>
     <span>Anna Leschanowsky · Erlangen, Germany</span>
@@ -61,6 +51,5 @@
   </footer>
 
 </div>
-
 </body>
 </html>
