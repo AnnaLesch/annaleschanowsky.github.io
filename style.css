@@ -56,6 +56,8 @@
   --accent:#1D5C79;
   --accent2:#3B7A57;
   --badge:#B3792D;
+  --theme-policy:#6B4058;
+  --theme-methods:#8A8D86;
 }
 *{box-sizing:border-box;}
 html{scroll-behavior:smooth;}
