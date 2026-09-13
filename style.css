@@ -354,6 +354,15 @@ ul.plain-list li .role{
   line-height:1.5;
 }
 
+.art-item img,
+.card img.project-image{
+  display:block;
+  width:100%;
+  height:auto;
+  border:1px solid var(--line);
+  margin:12px 0;
+}
+
 footer{
   font-family:"IBM Plex Mono", monospace;
   font-size:12.5px;
